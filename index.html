@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<!--
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>WCL laboratory - Intensify by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style> 
+	body { 
+		background-image:url('images/coverBG.png');
+		background-size:100% ;
+		background-position: 50% 5%;
+		background-repeat:no-repeat;
+	}
+p.con {
+	color: black;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 70px;
+	font-weight: normal;
+	padding: 30px 0px 0px 285px;
+	
+	}
+
+.slider_container {
+    margin: 0 auto 0 auto;
+    width: 1020px;
+
+    position: absolute;
+    top:100px;
+    left: 0;
+    right:0;
+    <!--border: 10px solid;   
+    border-color: #161B33;-->
+    background-color: "black";
+}
+.slider_container div {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.slider_container div {
+    -webkit-animation: round 25s linear infinite;
+            animation: round 25s linear infinite;
+}
+@-webkit-keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+@keyframes round {
+    4% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+    24% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s;
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+}
+
+.slider_container div:nth-child(4) {
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
+}
+
+.slider_container div:nth-child(5) {
+    -webkit-animation-delay: 20s;
+            animation-delay: 20s;
+}
+.slider_container span {
+    color: white;
+    font-position: middle;
+    background: #000000;
+    position: absolute;
+    left: 0%;
+    width: 800px;
+    height: 600px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    opacity: 0.5;
+    -webkit-transform:scaleY(0);
+        -ms-transform:scaleY(0);
+            transform:scaleY(0);
+    -webkit-transition: all 0.10s ease-in-out;
+            transition: all 0.10s ease-in-out;
+}
+
+.slider_container:hover span {
+    width: 100%;
+    -webkit-transform:scaleY(1);
+        -ms-transform:scaleY(1);
+            transform:scaleY(1);
+}
+
+.photo {
+	width:800px;
+	}	
+.cover_photo {
+	width:600px;
+	position:absolute;
+	left:0px;
+	top:300px;
+}
+</style>
+	<body>
+
+
+		<!-- Header -->
+
+			<header id="header">
+				<nav class="left">
+
+					<a href="#menu"><img src="images/button.png" style=" height:40px; position:fixed; top:30px; opacity:0.75;"></a>
+				</nav>
+				<img src="images/logo.png" style=" height:60px; position:fixed; left:12% ; top:10px;">
+				<img src="images/schoolLOGO.png" style=" height:70px; position:fixed; left:47.3% ; top:8px;">
+			<p id="demo" style="color:#542344; left:80%; font-size:26px;
+font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;"></p>
+			</header>
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">首頁</a></li>
+					<li><a href="當前計畫.html">當前計畫</a></li>
+					<li><a href="老師介紹.html">老師介紹</a></li>
+					<li><a href="研究方向.html">研究方向</a></li>
+					<li><a href="發表著作.html">發表著作</a></li>
+					<li><a href="聯絡地點.html">聯絡地點</a></li>
+				</ul>
+
+				<img src="images/menuphoto.png;" style="width:70px;position:absolute;left:7%;top:50%;opacity:0.7;">
+			</nav>
+<!-- content -->
+<img src="images/coverphoto1.png" style="width:55%;height:470px;position:absolute;z-index:-100;left:-2.5%;top:88px;">
+<div style="background-color:white;opacity:0.55;width:55%;height:470px;position:absolute;z-index:-99;left:-2.5%;top:88px;"></div>
+
+<img src="images/coverphoto2.jpg" style="width:50%;height:470px;position:absolute;z-index:-98;left:50%;top:88px;">
+<div style="background-color:black;opacity:0.45;width:50%;height:470px;position:absolute;z-index:-95;left:50%;top:88px;"></div>
+<div style="height:463px;">
+<p class="con"><br>Welcome t<span style="color:white">o WCL lab!</span></p>
+</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>聯絡我們<hr></h2>
+					<ul class="actions">
+						<li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li><img src="images/cellphone.png" style="height:50px;"><li>(02) 28267255</li>
+						<img src="images/mail.png" style="height:50px;"><li>wcli@ym.edu.tw</li>
+						<img src="images/map.png" style="height:50px;"><li>112台北市北投區立農街二段155號</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+</script>
+	</body>
+</html>
